@@ -33,14 +33,14 @@ session_start();
 		      <div class="row">
         <div class="input-field col s12">
 		<i class="material-icons prefix">account_circle</i>
-          <input id="usuario" type="text" name="usuario" class="validate">
+          <input id="usuario" type="text" name="usuario" class="validate" required="required">
           <label for="usuario">Usuário:</label>
         </div>
       </div>
 		      <div class="row">
         <div class="input-field col s12">
 		<i class="material-icons prefix">vpn_key</i>		
-          <input id="password" type="password" name="senha" class="validate">
+          <input id="password" type="password" name="senha" class="validate" required="required">
           <label for="senha">Senha:</label>
         </div>
 	
